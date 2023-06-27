@@ -1,13 +1,21 @@
 # Microweb
 
 ## French
-Vous trouverez dans ce depot le code de mon premier site web personnel.
-Il est, pour le moment, uniquement codé en HTML5 et CSS3 mais est sujet a evolution au fur et a mesure du developpement de mes competences.
-Vous pouvez utiliser ce theme et le modifier a votre convenance.
+Projet en cours !
+
+Vous trouverez dans ce dépôt le code de mon premier site web personnel.
+Il est, pour le moment, uniquement codé en HTML5 et CSS3 mais est sujet à évolution au fur et à mesure du développement de mes compétences.
+Vous pouvez utiliser ce thème et le modifier à votre convenance.
 
 ## English
+Project in progress!
 
+This is my first personal website using HTML5 and CSS3.
+You may use and modify it for you personal use. 
 
 ## Notes
-La police de caractere utilise est Luciole, une police particulierement simple a lire et concu pour les personnes malvoynantes. Je l'utilise donc dans un soucis d'accessibilite au plus grand nombre. Vous trouverez cette police ici : 
+La police de caractères utilise est Luciole, une police particulièrement simple à lire et conçu pour les personnes malvoyantes. Je l'utilise donc dans un souci d'accessibilité au plus grand nombre. Vous trouverez cette police ici :
 https://luciole-vision.com/
+
+The font I used for this website is "Luciole", a particularly easy-to-read font designed for the visually impaired. I therefore use it for the accessibility. You can find this font here:
+https://luciole-vision.com/luciole-en.html
