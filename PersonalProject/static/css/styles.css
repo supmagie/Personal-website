@@ -1,0 +1,158 @@
+/* Import UTF-8 */
+@charset "UTF-8";
+
+/* Smooth scroll */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Import Luciole fonts */
+@font-face {
+    font-family: 'luciole';
+    src: url('fonts/luciole.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'luciole-bold';
+    src: url('fonts/luciole-bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: bold;
+  }
+
+/* Main font */
+* {
+    font-family: "luciole", "helvetica", "consolas", "sans-serif";
+    font-size: 18px;
+    }
+
+/* || Body || */
+body {
+  margin: 0;
+  background-color: rgba(185, 175, 175, 0.493)
+}
+
+/* || HEADER NAV || */
+
+header {
+  width: 100%;
+  height: 115px;
+  background-color: #ceced1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: solid 2px rgba(87, 87, 95, 0);
+  box-shadow: 0 3px 10px rgba(87, 87, 95, 0.678);
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  background-color: #66666d;
+  margin: 5px 5px 0 10px;
+  border: thick double black;
+}
+
+h1 {
+  font-size: 50px;
+  color:rgb(73, 72, 100);
+}
+
+header > nav {
+  width: 50%;
+  max-width: 600px;
+  height: 100px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+header > nav > ul > li:hover {
+  background-color: #d6d6db;
+  color: #2a2a44;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li > a {
+  color: inherit;
+}
+
+/* || Main || */
+
+main {
+  padding: 10px 50px 50px 50px;
+  margin: 140px auto 50px auto;
+  /* border: solid 3px rgb(92, 78, 78); */
+  width: 1200px;
+  max-width: 1500px;
+  text-align: justify;
+}
+
+ h2 {
+  color: rgb(12, 12, 83);
+  font-family: "luciole-bold";
+  font-size: 30px;
+  border-bottom: solid 3px grey;
+ }
+
+/* || Footer nav || */
+
+footer {
+  border-top: solid 5px;
+  width: 100%;
+  margin: 0;
+  padding: 15px 5px 5px 15px;
+  background-color: rgb(115, 115, 133);
+  display: flex;
+  justify-content:space-between
+}
+
+footer > nav {
+  width: 50%;
+  max-width: 600px;
+  height: 60px;
+}
+
+footer > nav > ul > li {
+  margin: -50px;
+  padding: 0;
+}
+
+footer > p {
+  font-size: 15px;
+}
+
+/* Verifier les margins car peut changer par rapport a lecran*/ 
+footer > nav > ul > h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  margin-right: -50px;
+}
+
+#mail, #linkedin, #liberapay {
+    max-width: 40px;
+  }
